@@ -23,7 +23,7 @@ class EmailAddressParser
     email_address.split.collect do |email|
       email.split(",")
     end.flatten.uniq
-    
+  end
   end  
   
   
