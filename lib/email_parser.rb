@@ -11,13 +11,13 @@ class EmailAddressParser
   
   Array = []
   
-  def self.initialize(email_address)
+  def initialize(email_address)
     @email_address = email_address
-    email_adress 
+    
     end  
   
   
-  def self.parse
+  def parse
     new_email   
     
   end  
