@@ -12,7 +12,7 @@ class EmailAddressParser
   Array = []
   
   def initialize(email_address)
-   # binding.pry
+    binding.pry
     @email_address = email_address
     email_address = (email_address.split(" "))
     Array << email_address
