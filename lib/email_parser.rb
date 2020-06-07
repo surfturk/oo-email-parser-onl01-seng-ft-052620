@@ -21,7 +21,7 @@ class EmailAddressParser
   
   
   def parse
-    binding.pry
+    
        Array << email_address
     
   end  
