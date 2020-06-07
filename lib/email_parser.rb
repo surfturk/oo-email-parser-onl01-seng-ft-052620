@@ -14,8 +14,7 @@ class EmailAddressParser
   def initialize(email_address)
     
     @email_address = email_address
-    email_address = (email_address.split(" "))
-    email_address
+   
   
     end  
   
