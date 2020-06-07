@@ -9,7 +9,7 @@ require "pry"
 class EmailParser
   attr_accessor :email_address
   
-  def initialize
+  def initialize(email)
     
     
   end  
