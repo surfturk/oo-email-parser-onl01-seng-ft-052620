@@ -15,13 +15,13 @@ class EmailAddressParser
     binding.pry
     @email_address = email_address
     email_address = (email_address.split(" "))
-    Array << email_address
+    
   
     end  
   
   
   def parse
-       
+       email_address
     
   end  
   
