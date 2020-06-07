@@ -20,18 +20,16 @@ class EmailAddressParser
   
   
   def parse
-    email_address.split.collect do |email|
-      email.split(",")
-    end
-    .flatten.uniq
-   end
+    
+    puts splitEmail = emails.split.collect {|address| address.split(',')} 
+  returnArr = splitEmail.flatten.uniq
+  returnArr
+  
   end  
   
   
   
-    #puts splitEmail = emails.split.collect {|address| address.split(',')} 
- # returnArr = splitEmail.flatten.uniq
-  #returnArr
+  
   
   
   
