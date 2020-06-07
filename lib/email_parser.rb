@@ -9,7 +9,7 @@ require "pry"
 class EmailAddressParser
   attr_accessor :email_address
   
-  Array = []
+  
   
   def initialize(email_address)
     
