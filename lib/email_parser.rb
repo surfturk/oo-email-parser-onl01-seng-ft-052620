@@ -20,8 +20,8 @@ class EmailAddressParser
   
   
   def parse
-    
-       Array << email_address
+    email_address.
+      
     
   end  
   
