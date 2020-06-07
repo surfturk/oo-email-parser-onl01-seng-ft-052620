@@ -13,7 +13,7 @@ class EmailAddressParser
   
   def self.initialize(email_address)
     @email_address = email_address
-    
+    email_adress 
     end  
   
   
