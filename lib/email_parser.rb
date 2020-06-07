@@ -16,6 +16,7 @@ class EmailAddressParser
     @email_address = email_address
     email_address = (email_address.split(" "))
     Array << email_address
+    Array
     end  
   
   
