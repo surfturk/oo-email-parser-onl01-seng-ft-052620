@@ -21,7 +21,7 @@ class EmailAddressParser
   
   def parse
     email_address.split.collect do |email|
-      email.split(", ")
+      email.split(",")
       
     
   end  
