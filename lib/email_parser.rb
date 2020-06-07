@@ -11,7 +11,7 @@ class EmailAddressParser
   
   Array = []
   
-  def initialize(email_address)
+  def self.initialize(email_address)
     @email_address = email_address
     
     end  
